@@ -1,152 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aditya Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adithya S - Portfolio</title>
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
 
-body{
-    background:#0a192f;
-    color:white;
-}
+        body{
+            background: #0a192f;
+            color: white;
+            text-align: center;
+        }
 
-header{
-    background:#112240;
-    text-align:center;
-    padding:60px 20px;
-}
+        header{
+            background: #112240;
+            padding: 30px;
+        }
 
-header h1{
-    color:#64ffda;
-    font-size:50px;
-}
+        header h1{
+            font-size: 40px;
+            color: #64ffda;
+        }
 
-header p{
-    margin-top:10px;
-    font-size:18px;
-}
+        header p{
+            margin-top: 10px;
+            font-size: 18px;
+        }
 
-nav{
-    background:#1b2a49;
-    padding:15px;
-    text-align:center;
-}
+        .container{
+            width: 85%;
+            margin: 40px auto;
+        }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-}
+        .box{
+            background: #112240;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+            transition: 0.3s;
+        }
 
-section{
-    padding:50px 10%;
-}
+        .box:hover{
+            transform: translateY(-5px);
+        }
 
-.card{
-    background:#1b2a49;
-    padding:20px;
-    border-radius:10px;
-    margin-top:15px;
-}
+        h2{
+            color: #64ffda;
+            margin-bottom: 15px;
+        }
 
-h2{
-    color:#64ffda;
-    margin-bottom:15px;
-}
+        ul{
+            list-style-type: disc;
+            text-align: left;
+            margin-left: 30px;
+        }
 
-ul{
-    margin-left:20px;
-}
-
-footer{
-    text-align:center;
-    background:#112240;
-    padding:20px;
-}
-</style>
+        footer{
+            background: #112240;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
-
 <body>
 
-<header>
-<h1>ADITYA</h1>
-<p>Aspiring Software Developer | Web Development Enthusiast</p>
-</header>
+    <header>
+        <h1>ADITHYA.S</h1>
+        <p>BCA 3rd Year Student</p>
+    </header>
 
-<nav>
-<a href="#about">About</a>
-<a href="#education">Education</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
+    <div class="container">
 
-<section id="about">
-<h2>About Me</h2>
-<div class="card">
-<p>
-I am Aditya, a passionate BCA student interested in software development,
-web technologies, artificial intelligence, and continuous learning.
-</p>
-</div>
-</section>
+        <!-- Skills Box -->
+        <div class="box">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Excel</li>
+                <li>SQL</li>
+            </ul>
+        </div>
 
-<section id="education">
-<h2>Education</h2>
-<div class="card">
-<ul>
-<li>Bachelor of Computer Applications (BCA)</li>
-<li>Higher Secondary Education</li>
-<li>SSLC</li>
-</ul>
-</div>
-</section>
+        <!-- Education Box -->
+        <div class="box">
+            <h2>Education & Certifications</h2>
+            <ul>
+                <li>BCA 3rd Year Student</li>
+                <li>Completed Online Courses from IIT Bombay</li>
+                <li>Currently an Intern at IIT Palakkad</li>
+            </ul>
+        </div>
 
-<section id="skills">
-<h2>Skills</h2>
-<div class="card">
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Python</li>
-<li>Java</li>
-<li>PHP</li>
-</ul>
-</div>
-</section>
+        <!-- Career Goal Box -->
+        <div class="box">
+            <h2>Career Objective</h2>
+            <ul>
+                <li>Looking for Data Analyst Roles</li>
+                <li>Looking for Programmer Roles</li>
+            </ul>
+        </div>
 
-<section id="projects">
-<h2>Projects</h2>
-<div class="card">
-<ul>
-<li>Portfolio Website</li>
-<li>Object Detection using YOLO</li>
-<li>Student Management System</li>
-</ul>
-</div>
-</section>
+        <!-- Contact Box -->
+        <div class="box">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Phone Number: 123879</li>
+            </ul>
+        </div>
 
-<section id="contact">
-<h2>Contact</h2>
-<div class="card">
-<p>Email: aditya@gmail.com</p>
-<p>GitHub: github.com/aditya</p>
-<p>LinkedIn: linkedin.com/in/aditya</p>
-</div>
-</section>
+    </div>
 
-<footer>
-<p>© 2026 Aditya Portfolio</p>
-</footer>
+    <footer>
+        <p>© 2026 ADITHYA.S | Portfolio Website</p>
+    </footer>
 
 </body>
 </html>
